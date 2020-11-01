@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(202, 218, 248);
+}
+*{
+    box-sizing: border-box;
+    margin:2px;
+    padding: 0;
+
+}
+h3{
+    float:right;
+    left: 90%;
+    font-size: 30px;
+    background-color: cyan;
+}
+p{
+    font-size: 20px;
+    clear: both;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+header{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 100px;
+}
+.item1{
+    float: left;
+    width: 33%;
+    padding:0px 8px 8px 8px;
+    border-radius: 10px;
+    background-color: rgba(252, 165, 165, 0.425);
+    text-justify: auto;
+    border: 1px solid black;
+}
+.item2{
+    position: relative;
+    float: left;
+    width: 33%;
+    text-justify: auto;
+    padding:0px 8px 8px 8px;
+    border-radius: 10px;
+    background-color: rgb(81, 204, 235);
+    border: 1px solid black;
+}
+.item3{
+    position: relative;
+    float: left;
+    width: 33%;
+    text-justify: auto;
+    padding:0px 8px 8px 8px;
+    border-radius: 10px;
+    background-color: red;
+    border: 1px solid black;
+}
+
+@media (min-width:992px){
+    .item1{
+        width: 31.33%;
+        height: 50%;
+        margin: 1%;
+        overflow: auto;
+
+    }
+    .item2{
+        width: 31.3%;
+        height: 50%;
+        margin: 1%;
+        overflow: auto;
+    }
+    .item3{
+        width: 31.33%;
+        height: 50%;
+        margin: 1%;
+        overflow: auto;
+    }
+
+}
+@media (min-width:768px) and (max-width:991px){
+    .item1{
+        width: 48%;
+        height: 40%;
+        margin: 1%;
+
+    }
+    .item2{
+        width: 48%;
+        height: 40%;
+        margin: 1%;
+    }
+    .item3{
+        width: 98%;
+        height: 40%;
+        margin: 1%;
+    }
+
+}
+
+@media(max-width:767px){
+    .item1{
+        width: 90%;
+        height: 40%;
+        margin: 5%;
+
+    }
+    .item2{
+        margin: 5%;
+        width: 90%;
+        height: 40%;
+    }
+    .item3{
+        margin: 5%;
+        width: 90%;
+        height: 40%;
+    }
+}
